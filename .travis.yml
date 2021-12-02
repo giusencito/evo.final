@@ -1,0 +1,9 @@
+language: java
+jdk:
+ -openjdk8
+ 
+script: "./mvnw clean install"
+notifications:
+ email: xskulldragon@gmail.com
+before_install:
+ - chmod +x mvnw
